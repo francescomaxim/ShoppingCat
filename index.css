@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main{
+    width: 400px;
+    
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    background-color: white;
+}
+
+input, button{
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+
+    text-align: center;
+}
+
+button{
+    background-color: #4ef2b3;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+input{
+    margin-top: 20px;
+    border: 2px solid #4ef2b3;
+    color: #4ef2b3;
+}
+
+input::placeholder{
+    color: #4ef2b3;
+}
+  
+input:focus{
+    border: 2px solid #4ef2b3;
+}
+
+input::selection{
+    border-color: #4ef2b3;
+    border: 2px solid #4ef2b3;
+}
+
+ul{
+    width: 75%;
+
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    height: 25px;
+    padding: 10px;
+    flex-grow: 1;
+
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+    border: 2px solid #4ef2b3;
+
+    text-align: center;
+}
+
+ul li:hover{
+    border-color: red;
+    cursor: pointer;
+}
